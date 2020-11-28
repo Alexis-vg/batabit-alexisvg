@@ -1,0 +1,144 @@
+header img
+{
+    width: 200px;
+    height: 30px;
+    margin-top: 60px;
+    align-self: center; 
+}
+.header--title-container p /* Especificidad es muy importante */
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 25px;
+    line-height: 2.3rem; /* altura o interlineado de las letras */
+    color: var(--soft-orange);
+}
+.product-cards__container
+{
+   display:flex;
+   flex-wrap: wrap;
+}
+.product-detail__card
+{
+    width: 100%;
+    min-width: 288px;
+    max-width: 480px;
+    height: 150px;
+    margin:15px auto;
+    padding: 15px;
+    background-color: var(--warm-black1);
+    border-radius: 4px;
+    box-shadow: 0  4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail__title h2
+{
+    margin-bottom: 20px;
+    font-size: 2.6rem;
+    color:var(--white);
+    font-weight: bold;
+    line-height: 2.8rem;
+}
+.product-detail__title p
+{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    color:#808080;
+}
+.product__card-title
+{
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    color:var(--white);
+    margin-top: 10px;
+}
+.product__card-body
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #808080;
+}
+
+.plans-container__slider
+{
+    justify-content: center;
+    overflow-x: hidden;
+}
+.main-currency-table-slider
+{
+    overflow-x: hidden;
+}
+.main-currency-table
+{
+    width: 70%; /* porque la tabla no ocupa el 100% del ancho de la pantalla */
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin-left:100px;
+    font-family: "Inter", sans-serif; 
+}
+.commision-table
+{
+    margin-right: 100px;
+}
+.main-exchange-container--title p
+{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575; /* porque no es un color reutilizable es un color específico */
+}
+.plan-card__saving
+{
+    font-size: 1.35rem;
+    color: #757575;
+    padding: 17px 0;
+}
+.plan-card__title
+{
+    padding-top: 30px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:var(--black)
+}
+
+.plans-container__card .recomended
+{
+    font-size: 1.5rem;
+    width: 120px;
+    height: 35px;
+}
+.plans-container__card .basic
+{
+    font-size: 1.5rem;
+    width: 120px;
+    height: 35px;
+}
+
+.plans-container__card .ilimited
+{
+    font-size: 1.5rem;
+    width: 120px;
+    height: 35px;
+}
+footer .networks
+{
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+footer .logo-batata p
+{
+    color: var(--soft-orange);
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+.bitcoin-img-container
+{  
+    background-image: url(./assets/imgs/bitcoinbabyx2.jpg);
+}

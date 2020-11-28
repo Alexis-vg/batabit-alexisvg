@@ -1,0 +1,21 @@
+.product-cards__container
+{
+   display:flex;
+   flex-wrap: wrap;
+}
+.product-detail__card
+{
+    width: 100%;
+    min-width: 288px;
+    max-width: 354px;
+    height: 150px;
+    margin:15px auto;
+    padding: 15px;
+    background-color: var(--warm-black1);
+    border-radius: 4px;
+    box-shadow: 0  4px 8px rgba(0, 0, 0, 0.16);
+}
+.bitcoin-img-container
+{  
+    background-image: url(./assets/imgs/bitcoinbabyx2.jpg);
+}
